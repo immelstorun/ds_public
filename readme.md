@@ -8,4 +8,8 @@
   <a href="https://github.com/immelstorun">
     <img src="https://img.shields.io/badge/-immelstorun-blue?style=flat&logo=github" alt="GitHub Repo">
   </a>
-</p>
+</p> 
+
+### Мониторинг атмосферы
+
+>В ходе работы над заданем были опробованы различные техники для создания моделей машинного обучения для предсказания района города по составу атмосферы по содержанию SO2, NO2, O3, CO, PM10 и PM2.5. 
