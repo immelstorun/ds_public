@@ -1,0 +1,1857 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d61c78df08ca8228b114ebb61d4a43d1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d61c78df08ca8228b114ebb61d4a43d1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d61c78df08ca8228b114ebb61d4a43d1 = L.map(
+                "map_d61c78df08ca8228b114ebb61d4a43d1",
+                {
+                    center: [53.80679922352941, 60.919273164705885],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b6a4abbcaac90984bb54b30e5cfd798b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_b6a4abbcaac90984bb54b30e5cfd798b.addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+            var marker_09c600ae14d84188ee95f216b5572718 = L.marker(
+                [53.7224, 91.4437],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_11e9ec138731624c3692562db33d1e71 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_c12e91b5b021e68d6622960db608e400 = $(`<div id="html_c12e91b5b021e68d6622960db608e400" style="width: 100.0%; height: 100.0%;">         Столица: Абакан<br>         Регион: Республика Хакасия<br>         Код: 2359<br>         </div>`)[0];
+                popup_11e9ec138731624c3692562db33d1e71.setContent(html_c12e91b5b021e68d6622960db608e400);
+            
+        
+
+        marker_09c600ae14d84188ee95f216b5572718.bindPopup(popup_11e9ec138731624c3692562db33d1e71)
+        ;
+
+        
+    
+    
+            var marker_a7bdf22956a7628c438eb664d13dcddd = L.marker(
+                [64.7337, 177.5144],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_28c964a74255433c4cb58c936acb785b = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_5d4d383187637224de3b778b8d8b4fd2 = $(`<div id="html_5d4d383187637224de3b778b8d8b4fd2" style="width: 100.0%; height: 100.0%;">         Столица: Анадырь<br>         Регион: Чукотский автономный округ<br>         Код: 666<br>         </div>`)[0];
+                popup_28c964a74255433c4cb58c936acb785b.setContent(html_5d4d383187637224de3b778b8d8b4fd2);
+            
+        
+
+        marker_a7bdf22956a7628c438eb664d13dcddd.bindPopup(popup_28c964a74255433c4cb58c936acb785b)
+        ;
+
+        
+    
+    
+            var marker_7da1d56baeee042e27efc388e2c06cd8 = L.marker(
+                [64.5399, 40.5152],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_634cdf56a93ff3aa7b94bad4ee55feee = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_5669df97afa5a5ffed1dcb866b2b3e2d = $(`<div id="html_5669df97afa5a5ffed1dcb866b2b3e2d" style="width: 100.0%; height: 100.0%;">         Столица: Архангельск<br>         Регион: Архангельская область<br>         Код: 6543<br>         </div>`)[0];
+                popup_634cdf56a93ff3aa7b94bad4ee55feee.setContent(html_5669df97afa5a5ffed1dcb866b2b3e2d);
+            
+        
+
+        marker_7da1d56baeee042e27efc388e2c06cd8.bindPopup(popup_634cdf56a93ff3aa7b94bad4ee55feee)
+        ;
+
+        
+    
+    
+            var marker_fe9d9b302c5312716c5674fbc09fcd65 = L.marker(
+                [46.3497, 48.0408],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_ed89f808b22e25601ebfc314e2ce5dae = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_1d35f4692d309c5c8da501a78e1b409d = $(`<div id="html_1d35f4692d309c5c8da501a78e1b409d" style="width: 100.0%; height: 100.0%;">         Столица: Астрахань<br>         Регион: Астраханская область<br>         Код: 10582<br>         </div>`)[0];
+                popup_ed89f808b22e25601ebfc314e2ce5dae.setContent(html_1d35f4692d309c5c8da501a78e1b409d);
+            
+        
+
+        marker_fe9d9b302c5312716c5674fbc09fcd65.bindPopup(popup_ed89f808b22e25601ebfc314e2ce5dae)
+        ;
+
+        
+    
+    
+            var marker_a2353b885594835edf52d36c1dac0999 = L.marker(
+                [53.3476, 83.7788],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_1901f974d1c2445090686651c6b785e1 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_1ed6c4c464fbc482bed7526d13635739 = $(`<div id="html_1ed6c4c464fbc482bed7526d13635739" style="width: 100.0%; height: 100.0%;">         Столица: Барнаул<br>         Регион: Алтайский край<br>         Код: 6817<br>         </div>`)[0];
+                popup_1901f974d1c2445090686651c6b785e1.setContent(html_1ed6c4c464fbc482bed7526d13635739);
+            
+        
+
+        marker_a2353b885594835edf52d36c1dac0999.bindPopup(popup_1901f974d1c2445090686651c6b785e1)
+        ;
+
+        
+    
+    
+            var marker_116e98cef1e23e9000981c8c4d076f7c = L.marker(
+                [50.5977, 36.5859],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_363a5ed81a3bf76c1725e8dee1506652 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_d43782490968817bdd8f828cefa7408e = $(`<div id="html_d43782490968817bdd8f828cefa7408e" style="width: 100.0%; height: 100.0%;">         Столица: Белгород<br>         Регион: Белгородская область<br>         Код: 5952<br>         </div>`)[0];
+                popup_363a5ed81a3bf76c1725e8dee1506652.setContent(html_d43782490968817bdd8f828cefa7408e);
+            
+        
+
+        marker_116e98cef1e23e9000981c8c4d076f7c.bindPopup(popup_363a5ed81a3bf76c1725e8dee1506652)
+        ;
+
+        
+    
+    
+            var marker_0b66d8c2fc85ab610549331036cdd10c = L.marker(
+                [48.7946, 132.9217],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_a41660379be7dd6d49ef6b3ee8e0f231 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_987eb9f8e61bbc003886ebe59fed9458 = $(`<div id="html_987eb9f8e61bbc003886ebe59fed9458" style="width: 100.0%; height: 100.0%;">         Столица: Биробиджан<br>         Регион: Еврейская автономная область<br>         Код: 69<br>         </div>`)[0];
+                popup_a41660379be7dd6d49ef6b3ee8e0f231.setContent(html_987eb9f8e61bbc003886ebe59fed9458);
+            
+        
+
+        marker_0b66d8c2fc85ab610549331036cdd10c.bindPopup(popup_a41660379be7dd6d49ef6b3ee8e0f231)
+        ;
+
+        
+    
+    
+            var marker_3844d07ed13db94d13f8f7d1048904cc = L.marker(
+                [50.2906, 127.5272],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_dd96d0130a289f60e904597a2eb24499 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_7fff37670304f1a5f09ae3687c2c389b = $(`<div id="html_7fff37670304f1a5f09ae3687c2c389b" style="width: 100.0%; height: 100.0%;">         Столица: Благовещенск<br>         Регион: Амурская область<br>         Код: 7929<br>         </div>`)[0];
+                popup_dd96d0130a289f60e904597a2eb24499.setContent(html_7fff37670304f1a5f09ae3687c2c389b);
+            
+        
+
+        marker_3844d07ed13db94d13f8f7d1048904cc.bindPopup(popup_dd96d0130a289f60e904597a2eb24499)
+        ;
+
+        
+    
+    
+            var marker_91dd625502154c6d72486ccf31e585e7 = L.marker(
+                [53.2521, 34.3717],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_5192342655e0cb3511dd5f9a03d23525 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_6914f7e18e54738425f7a0847f2338e7 = $(`<div id="html_6914f7e18e54738425f7a0847f2338e7" style="width: 100.0%; height: 100.0%;">         Столица: Брянск<br>         Регион: Брянская область<br>         Код: 821<br>         </div>`)[0];
+                popup_5192342655e0cb3511dd5f9a03d23525.setContent(html_6914f7e18e54738425f7a0847f2338e7);
+            
+        
+
+        marker_91dd625502154c6d72486ccf31e585e7.bindPopup(popup_5192342655e0cb3511dd5f9a03d23525)
+        ;
+
+        
+    
+    
+            var marker_7e66fc066660a82bd2a1a9d524fc7488 = L.marker(
+                [58.5213, 31.2755],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_a768394e942610acbd2d452cf35daa74 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_ea1bd1257c6d4ded4dfbbfceae0e2f9b = $(`<div id="html_ea1bd1257c6d4ded4dfbbfceae0e2f9b" style="width: 100.0%; height: 100.0%;">         Столица: Великий Новгород<br>         Регион: Новгородская область<br>         Код: 5736<br>         </div>`)[0];
+                popup_a768394e942610acbd2d452cf35daa74.setContent(html_ea1bd1257c6d4ded4dfbbfceae0e2f9b);
+            
+        
+
+        marker_7e66fc066660a82bd2a1a9d524fc7488.bindPopup(popup_a768394e942610acbd2d452cf35daa74)
+        ;
+
+        
+    
+    
+            var marker_a7ee0a809972840cc41706f6131d4466 = L.marker(
+                [43.1155, 131.8855],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_f4a200cd56182a1fabf1897930bf2978 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_88fafd43e75fd2f2bd665a307bb5572a = $(`<div id="html_88fafd43e75fd2f2bd665a307bb5572a" style="width: 100.0%; height: 100.0%;">         Столица: Владивосток<br>         Регион: Приморский край<br>         Код: 4963<br>         </div>`)[0];
+                popup_f4a200cd56182a1fabf1897930bf2978.setContent(html_88fafd43e75fd2f2bd665a307bb5572a);
+            
+        
+
+        marker_a7ee0a809972840cc41706f6131d4466.bindPopup(popup_f4a200cd56182a1fabf1897930bf2978)
+        ;
+
+        
+    
+    
+            var marker_9f61ab1fe2b610ddd3ef97900af0eab4 = L.marker(
+                [43.0245, 44.6908],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_ea472c65d8195501184322873f792046 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_eefeb32fce30e8bcdf32bbe66f113e66 = $(`<div id="html_eefeb32fce30e8bcdf32bbe66f113e66" style="width: 100.0%; height: 100.0%;">         Столица: Владикавказ<br>         Регион: Республика Северная Осетия — Алания<br>         Код: 13919<br>         </div>`)[0];
+                popup_ea472c65d8195501184322873f792046.setContent(html_eefeb32fce30e8bcdf32bbe66f113e66);
+            
+        
+
+        marker_9f61ab1fe2b610ddd3ef97900af0eab4.bindPopup(popup_ea472c65d8195501184322873f792046)
+        ;
+
+        
+    
+    
+            var marker_f00cb1c5f1ed7716ec0d23acf7d15502 = L.marker(
+                [56.1291, 40.4073],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_67457e656556c9570fb4ba8473f9a2b9 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_5b903e8f1d6f43c1d28e97f83acc5347 = $(`<div id="html_5b903e8f1d6f43c1d28e97f83acc5347" style="width: 100.0%; height: 100.0%;">         Столица: Владимир<br>         Регион: Владимирская область<br>         Код: 5789<br>         </div>`)[0];
+                popup_67457e656556c9570fb4ba8473f9a2b9.setContent(html_5b903e8f1d6f43c1d28e97f83acc5347);
+            
+        
+
+        marker_f00cb1c5f1ed7716ec0d23acf7d15502.bindPopup(popup_67457e656556c9570fb4ba8473f9a2b9)
+        ;
+
+        
+    
+    
+            var marker_fb27fb6fcf3375bb1842023e9c57c3c0 = L.marker(
+                [48.708, 44.5156],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_ec04fe5cc139aed4ddf0326f1fe0b8a6 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_17d8ff52f699ba48b9cf61b4d7d2ed8a = $(`<div id="html_17d8ff52f699ba48b9cf61b4d7d2ed8a" style="width: 100.0%; height: 100.0%;">         Столица: Волгоград<br>         Регион: Волгоградская область<br>         Код: 4695<br>         </div>`)[0];
+                popup_ec04fe5cc139aed4ddf0326f1fe0b8a6.setContent(html_17d8ff52f699ba48b9cf61b4d7d2ed8a);
+            
+        
+
+        marker_fb27fb6fcf3375bb1842023e9c57c3c0.bindPopup(popup_ec04fe5cc139aed4ddf0326f1fe0b8a6)
+        ;
+
+        
+    
+    
+            var marker_9d7c975ca95acae25bd520330398205d = L.marker(
+                [59.2205, 39.8915],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_d412b72ba2939f4403cd5adc0d9676b0 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_fe0abd4a6bfaf84f670847f7b8bfcd98 = $(`<div id="html_fe0abd4a6bfaf84f670847f7b8bfcd98" style="width: 100.0%; height: 100.0%;">         Столица: Вологда<br>         Регион: Вологодская область<br>         Код: 4374<br>         </div>`)[0];
+                popup_d412b72ba2939f4403cd5adc0d9676b0.setContent(html_fe0abd4a6bfaf84f670847f7b8bfcd98);
+            
+        
+
+        marker_9d7c975ca95acae25bd520330398205d.bindPopup(popup_d412b72ba2939f4403cd5adc0d9676b0)
+        ;
+
+        
+    
+    
+            var marker_67903230dedcc66c84bb04fe5d7c2dfc = L.marker(
+                [51.6755, 39.2089],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_7288d32fc999d3adb75e8daae0ce859d = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_d6f003d16b7482ceca2a0724366d53df = $(`<div id="html_d6f003d16b7482ceca2a0724366d53df" style="width: 100.0%; height: 100.0%;">         Столица: Воронеж<br>         Регион: Воронежская область<br>         Код: 2072<br>         </div>`)[0];
+                popup_7288d32fc999d3adb75e8daae0ce859d.setContent(html_d6f003d16b7482ceca2a0724366d53df);
+            
+        
+
+        marker_67903230dedcc66c84bb04fe5d7c2dfc.bindPopup(popup_7288d32fc999d3adb75e8daae0ce859d)
+        ;
+
+        
+    
+    
+            var marker_feb7584b1653ed0c0e293ebe66e158ce = L.marker(
+                [51.957804, 85.960634],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_2e503be0345b284515f14f56e6b3ccca = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_a1534fc4841378bba3ff7a2eaa994b3b = $(`<div id="html_a1534fc4841378bba3ff7a2eaa994b3b" style="width: 100.0%; height: 100.0%;">         Столица: Горно-Алтайск<br>         Регион: Республика Алтай<br>         Код: 6309<br>         </div>`)[0];
+                popup_2e503be0345b284515f14f56e6b3ccca.setContent(html_a1534fc4841378bba3ff7a2eaa994b3b);
+            
+        
+
+        marker_feb7584b1653ed0c0e293ebe66e158ce.bindPopup(popup_2e503be0345b284515f14f56e6b3ccca)
+        ;
+
+        
+    
+    
+            var marker_ec96a274926b3d178f2e23d71d0944e1 = L.marker(
+                [43.3179, 45.6983],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_c0f9775c0f23d895ca065415ae8759d2 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_e15f000b3f4edc737c89d90393ec69de = $(`<div id="html_e15f000b3f4edc737c89d90393ec69de" style="width: 100.0%; height: 100.0%;">         Столица: Грозный<br>         Регион: Чеченская Республика<br>         Код: 2885<br>         </div>`)[0];
+                popup_c0f9775c0f23d895ca065415ae8759d2.setContent(html_e15f000b3f4edc737c89d90393ec69de);
+            
+        
+
+        marker_ec96a274926b3d178f2e23d71d0944e1.bindPopup(popup_c0f9775c0f23d895ca065415ae8759d2)
+        ;
+
+        
+    
+    
+            var marker_140df154bb039bafeab2dc323cb92c8c = L.marker(
+                [56.8389, 60.6057],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_3f733d61a06fb2ae3cfcc4c2a8ef570f = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_e131b96cdda5b9926fc79e75d937846e = $(`<div id="html_e131b96cdda5b9926fc79e75d937846e" style="width: 100.0%; height: 100.0%;">         Столица: Екатеринбург<br>         Регион: Свердловская область<br>         Код: 6171<br>         </div>`)[0];
+                popup_3f733d61a06fb2ae3cfcc4c2a8ef570f.setContent(html_e131b96cdda5b9926fc79e75d937846e);
+            
+        
+
+        marker_140df154bb039bafeab2dc323cb92c8c.bindPopup(popup_3f733d61a06fb2ae3cfcc4c2a8ef570f)
+        ;
+
+        
+    
+    
+            var marker_86f573f961f46d0fdfdd0e0f3fcb62fe = L.marker(
+                [57.0003, 40.9739],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_9acd1e9e48e949f6c3708a28cc502b30 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_164513bbbc8503d324132bef47eeb987 = $(`<div id="html_164513bbbc8503d324132bef47eeb987" style="width: 100.0%; height: 100.0%;">         Столица: Иваново<br>         Регион: Ивановская область<br>         Код: 8894<br>         </div>`)[0];
+                popup_9acd1e9e48e949f6c3708a28cc502b30.setContent(html_164513bbbc8503d324132bef47eeb987);
+            
+        
+
+        marker_86f573f961f46d0fdfdd0e0f3fcb62fe.bindPopup(popup_9acd1e9e48e949f6c3708a28cc502b30)
+        ;
+
+        
+    
+    
+            var marker_b0427113ba7ef8e601c0755de8ad6bc1 = L.marker(
+                [56.8526, 53.2065],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_ffc24709a4ce09319cf91eb258b565ca = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_f3fcf8d0203af1894e9ac58b984fa216 = $(`<div id="html_f3fcf8d0203af1894e9ac58b984fa216" style="width: 100.0%; height: 100.0%;">         Столица: Ижевск<br>         Регион: Удмуртская Республика<br>         Код: 1010<br>         </div>`)[0];
+                popup_ffc24709a4ce09319cf91eb258b565ca.setContent(html_f3fcf8d0203af1894e9ac58b984fa216);
+            
+        
+
+        marker_b0427113ba7ef8e601c0755de8ad6bc1.bindPopup(popup_ffc24709a4ce09319cf91eb258b565ca)
+        ;
+
+        
+    
+    
+            var marker_3b45e7a479e6243a52b61168ca40e163 = L.marker(
+                [52.2869, 104.305],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_fbe93fa5593172cd8588966ec88da5ee = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_a4bf23c2dd1080a116622c93913e673c = $(`<div id="html_a4bf23c2dd1080a116622c93913e673c" style="width: 100.0%; height: 100.0%;">         Столица: Иркутск<br>         Регион: Иркутская область<br>         Код: 5368<br>         </div>`)[0];
+                popup_fbe93fa5593172cd8588966ec88da5ee.setContent(html_a4bf23c2dd1080a116622c93913e673c);
+            
+        
+
+        marker_3b45e7a479e6243a52b61168ca40e163.bindPopup(popup_fbe93fa5593172cd8588966ec88da5ee)
+        ;
+
+        
+    
+    
+            var marker_3098d2e6113a8f8a2b877c8d8a526e0d = L.marker(
+                [56.6388, 47.8908],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_d7b4b015bf13fc0c06ee05c3cede1826 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_a18f589db1b2e3c08e961d9a5d84b5fe = $(`<div id="html_a18f589db1b2e3c08e961d9a5d84b5fe" style="width: 100.0%; height: 100.0%;">         Столица: Йошкар-Ола<br>         Регион: Республика Марий Эл<br>         Код: 4982<br>         </div>`)[0];
+                popup_d7b4b015bf13fc0c06ee05c3cede1826.setContent(html_a18f589db1b2e3c08e961d9a5d84b5fe);
+            
+        
+
+        marker_3098d2e6113a8f8a2b877c8d8a526e0d.bindPopup(popup_d7b4b015bf13fc0c06ee05c3cede1826)
+        ;
+
+        
+    
+    
+            var marker_d78d4c0a4644cbd51b02c3ddd046be84 = L.marker(
+                [55.8304, 49.0661],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_ff354f11195d3b6de2d7128e21f12e02 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_58c1a2b4725614e610b03e3b91138ffb = $(`<div id="html_58c1a2b4725614e610b03e3b91138ffb" style="width: 100.0%; height: 100.0%;">         Столица: Казань<br>         Регион: Республика Татарстан<br>         Код: 2922<br>         </div>`)[0];
+                popup_ff354f11195d3b6de2d7128e21f12e02.setContent(html_58c1a2b4725614e610b03e3b91138ffb);
+            
+        
+
+        marker_d78d4c0a4644cbd51b02c3ddd046be84.bindPopup(popup_ff354f11195d3b6de2d7128e21f12e02)
+        ;
+
+        
+    
+    
+            var marker_979ce8d192d201eff679ac56d3c77291 = L.marker(
+                [54.7104, 20.4522],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_db9be87f19281891c198f240936a09a3 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_18b68156df0f41446d077f0ba52f3ca8 = $(`<div id="html_18b68156df0f41446d077f0ba52f3ca8" style="width: 100.0%; height: 100.0%;">         Столица: Калининград<br>         Регион: Калининградская область<br>         Код: 7896<br>         </div>`)[0];
+                popup_db9be87f19281891c198f240936a09a3.setContent(html_18b68156df0f41446d077f0ba52f3ca8);
+            
+        
+
+        marker_979ce8d192d201eff679ac56d3c77291.bindPopup(popup_db9be87f19281891c198f240936a09a3)
+        ;
+
+        
+    
+    
+            var marker_2c903b672cba96f79e609f75e0b851c2 = L.marker(
+                [54.506, 36.2516],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_f34f6630a54eabeed6380ca35147f5df = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_a9f74f1e0c3979d4818cd4bbd8219fab = $(`<div id="html_a9f74f1e0c3979d4818cd4bbd8219fab" style="width: 100.0%; height: 100.0%;">         Столица: Калуга<br>         Регион: Калужская область<br>         Код: 2328<br>         </div>`)[0];
+                popup_f34f6630a54eabeed6380ca35147f5df.setContent(html_a9f74f1e0c3979d4818cd4bbd8219fab);
+            
+        
+
+        marker_2c903b672cba96f79e609f75e0b851c2.bindPopup(popup_f34f6630a54eabeed6380ca35147f5df)
+        ;
+
+        
+    
+    
+            var marker_fb7252168abb2f290da8685a37371705 = L.marker(
+                [55.3552, 86.0873],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_a1bd6729b59df8103333fb76a522eb0e = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_cf2fe15fe9c5d9ccc18314c886096e9a = $(`<div id="html_cf2fe15fe9c5d9ccc18314c886096e9a" style="width: 100.0%; height: 100.0%;">         Столица: Кемерово<br>         Регион: Кемеровская область<br>         Код: 2860<br>         </div>`)[0];
+                popup_a1bd6729b59df8103333fb76a522eb0e.setContent(html_cf2fe15fe9c5d9ccc18314c886096e9a);
+            
+        
+
+        marker_fb7252168abb2f290da8685a37371705.bindPopup(popup_a1bd6729b59df8103333fb76a522eb0e)
+        ;
+
+        
+    
+    
+            var marker_29f8a25ce7922756974119c2341b42c7 = L.marker(
+                [58.6035, 49.6669],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_c597079b9abb2bbe2dc065bdf9ae2b80 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_3c0faeed2b55f596882b1867a0aeebce = $(`<div id="html_3c0faeed2b55f596882b1867a0aeebce" style="width: 100.0%; height: 100.0%;">         Столица: Киров<br>         Регион: Кировская область<br>         Код: 2594<br>         </div>`)[0];
+                popup_c597079b9abb2bbe2dc065bdf9ae2b80.setContent(html_3c0faeed2b55f596882b1867a0aeebce);
+            
+        
+
+        marker_29f8a25ce7922756974119c2341b42c7.bindPopup(popup_c597079b9abb2bbe2dc065bdf9ae2b80)
+        ;
+
+        
+    
+    
+            var marker_76cd4546a8367a54754cdb4029d0c2b6 = L.marker(
+                [57.7679, 40.9269],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_56de2236692e7aa5da494ced630f9d34 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_7a88f4fa9e46843227eacd7212acd2c5 = $(`<div id="html_7a88f4fa9e46843227eacd7212acd2c5" style="width: 100.0%; height: 100.0%;">         Столица: Кострома<br>         Регион: Костромская область<br>         Код: 4189<br>         </div>`)[0];
+                popup_56de2236692e7aa5da494ced630f9d34.setContent(html_7a88f4fa9e46843227eacd7212acd2c5);
+            
+        
+
+        marker_76cd4546a8367a54754cdb4029d0c2b6.bindPopup(popup_56de2236692e7aa5da494ced630f9d34)
+        ;
+
+        
+    
+    
+            var marker_364f654863ca304f6606661e36437113 = L.marker(
+                [45.0355, 38.9753],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_f852c301df7bc6671ff01b166495fa33 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_2ca22eb57241f77732d14728d19bfd5c = $(`<div id="html_2ca22eb57241f77732d14728d19bfd5c" style="width: 100.0%; height: 100.0%;">         Столица: Краснодар<br>         Регион: Краснодарский край<br>         Код: 2843<br>         </div>`)[0];
+                popup_f852c301df7bc6671ff01b166495fa33.setContent(html_2ca22eb57241f77732d14728d19bfd5c);
+            
+        
+
+        marker_364f654863ca304f6606661e36437113.bindPopup(popup_f852c301df7bc6671ff01b166495fa33)
+        ;
+
+        
+    
+    
+            var marker_62737dfea9cafa1a97a029758d8557fb = L.marker(
+                [56.0153, 92.8932],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_d72414ff2df7a3b35a65f618508e9a9c = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_a5d31c959fb82a95ab14cd511dd5b465 = $(`<div id="html_a5d31c959fb82a95ab14cd511dd5b465" style="width: 100.0%; height: 100.0%;">         Столица: Красноярск<br>         Регион: Красноярский край<br>         Код: 3870<br>         </div>`)[0];
+                popup_d72414ff2df7a3b35a65f618508e9a9c.setContent(html_a5d31c959fb82a95ab14cd511dd5b465);
+            
+        
+
+        marker_62737dfea9cafa1a97a029758d8557fb.bindPopup(popup_d72414ff2df7a3b35a65f618508e9a9c)
+        ;
+
+        
+    
+    
+            var marker_8eca75ec780278d733b889724ce83890 = L.marker(
+                [55.441, 65.3411],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_49860ab4476e82ba6fcea0c8f2850694 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_cec242fc76fa74c6a9d4640cd0857bd9 = $(`<div id="html_cec242fc76fa74c6a9d4640cd0857bd9" style="width: 100.0%; height: 100.0%;">         Столица: Курган<br>         Регион: Курганская область<br>         Код: 5703<br>         </div>`)[0];
+                popup_49860ab4476e82ba6fcea0c8f2850694.setContent(html_cec242fc76fa74c6a9d4640cd0857bd9);
+            
+        
+
+        marker_8eca75ec780278d733b889724ce83890.bindPopup(popup_49860ab4476e82ba6fcea0c8f2850694)
+        ;
+
+        
+    
+    
+            var marker_ac9f94d1c798995504e68b93c466d472 = L.marker(
+                [51.7304, 36.1926],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_50ab751eea4f5325dbf5ef7aedcb724b = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_633849ee35609f7606b6f2797c770674 = $(`<div id="html_633849ee35609f7606b6f2797c770674" style="width: 100.0%; height: 100.0%;">         Столица: Курск<br>         Регион: Курская область<br>         Код: 7121<br>         </div>`)[0];
+                popup_50ab751eea4f5325dbf5ef7aedcb724b.setContent(html_633849ee35609f7606b6f2797c770674);
+            
+        
+
+        marker_ac9f94d1c798995504e68b93c466d472.bindPopup(popup_50ab751eea4f5325dbf5ef7aedcb724b)
+        ;
+
+        
+    
+    
+            var marker_72ca9716501f006e9c4888eae1c7107e = L.marker(
+                [51.7191, 94.4377],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_b05acac93f6939668a6f17d42b499a13 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_898faf81ee40736a32daba0b831fd6fd = $(`<div id="html_898faf81ee40736a32daba0b831fd6fd" style="width: 100.0%; height: 100.0%;">         Столица: Кызыл<br>         Регион: Республика Тыва<br>         Код: 5178<br>         </div>`)[0];
+                popup_b05acac93f6939668a6f17d42b499a13.setContent(html_898faf81ee40736a32daba0b831fd6fd);
+            
+        
+
+        marker_72ca9716501f006e9c4888eae1c7107e.bindPopup(popup_b05acac93f6939668a6f17d42b499a13)
+        ;
+
+        
+    
+    
+            var marker_cd4679d85874501299ccd21a94f8abaa = L.marker(
+                [52.6103, 39.5946],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_1f86222203bbbedff7e0c40573c7a6bb = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_5746f1b9b65e0e161d175156e85508b5 = $(`<div id="html_5746f1b9b65e0e161d175156e85508b5" style="width: 100.0%; height: 100.0%;">         Столица: Липецк<br>         Регион: Липецкая область<br>         Код: 4240<br>         </div>`)[0];
+                popup_1f86222203bbbedff7e0c40573c7a6bb.setContent(html_5746f1b9b65e0e161d175156e85508b5);
+            
+        
+
+        marker_cd4679d85874501299ccd21a94f8abaa.bindPopup(popup_1f86222203bbbedff7e0c40573c7a6bb)
+        ;
+
+        
+    
+    
+            var marker_39aa49416ca925f6a1c3515272b49661 = L.marker(
+                [59.5682, 150.8085],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_7949113221ddb0819830b97af8f8691b = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_df64d17427746bb9f126d9f574649189 = $(`<div id="html_df64d17427746bb9f126d9f574649189" style="width: 100.0%; height: 100.0%;">         Столица: Магадан<br>         Регион: Магаданская область<br>         Код: 16705<br>         </div>`)[0];
+                popup_7949113221ddb0819830b97af8f8691b.setContent(html_df64d17427746bb9f126d9f574649189);
+            
+        
+
+        marker_39aa49416ca925f6a1c3515272b49661.bindPopup(popup_7949113221ddb0819830b97af8f8691b)
+        ;
+
+        
+    
+    
+            var marker_ec15a3aaf363c18ba14c504372e2967a = L.marker(
+                [43.166667, 44.816667],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_605a672c1dc1fbd7529bbb11bc174999 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_cccb1a6a85eccaad18296dac4cda02ea = $(`<div id="html_cccb1a6a85eccaad18296dac4cda02ea" style="width: 100.0%; height: 100.0%;">         Столица: Магас<br>         Регион: Ингушетия<br>         Код: 13913<br>         </div>`)[0];
+                popup_605a672c1dc1fbd7529bbb11bc174999.setContent(html_cccb1a6a85eccaad18296dac4cda02ea);
+            
+        
+
+        marker_ec15a3aaf363c18ba14c504372e2967a.bindPopup(popup_605a672c1dc1fbd7529bbb11bc174999)
+        ;
+
+        
+    
+    
+            var marker_4200f7950ea09f060f4c787e57f88c0d = L.marker(
+                [44.6098, 40.1008],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_0cb30ff0b0c477db61d4ef9e445a6636 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_45ccd42747b5c4a699c677df5ef3889a = $(`<div id="html_45ccd42747b5c4a699c677df5ef3889a" style="width: 100.0%; height: 100.0%;">         Столица: Майкоп<br>         Регион: Республика Адыгея<br>         Код: 11416<br>         </div>`)[0];
+                popup_0cb30ff0b0c477db61d4ef9e445a6636.setContent(html_45ccd42747b5c4a699c677df5ef3889a);
+            
+        
+
+        marker_4200f7950ea09f060f4c787e57f88c0d.bindPopup(popup_0cb30ff0b0c477db61d4ef9e445a6636)
+        ;
+
+        
+    
+    
+            var marker_1fd6833b89052588fe2d416f7a65ec7f = L.marker(
+                [42.9849, 47.5046],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_cc3d8effd4e170c790ea9bd85dfc0051 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_2ab428daeea77d5783e0a98d63af3b71 = $(`<div id="html_2ab428daeea77d5783e0a98d63af3b71" style="width: 100.0%; height: 100.0%;">         Столица: Махачкала<br>         Регион: Республика Дагестан<br>         Код: 4007<br>         </div>`)[0];
+                popup_cc3d8effd4e170c790ea9bd85dfc0051.setContent(html_2ab428daeea77d5783e0a98d63af3b71);
+            
+        
+
+        marker_1fd6833b89052588fe2d416f7a65ec7f.bindPopup(popup_cc3d8effd4e170c790ea9bd85dfc0051)
+        ;
+
+        
+    
+    
+            var marker_6fc859f4a8a1e43eeadff25ce08b58a5 = L.marker(
+                [55.76, 37.65],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_d13daf4f9e13be72f083d7491d0b0de2 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_eeb86e9a866af6ad3a12eadb5ce40994 = $(`<div id="html_eeb86e9a866af6ad3a12eadb5ce40994" style="width: 100.0%; height: 100.0%;">         Столица: Москва<br>         Регион: Москва<br>         Код: 3<br>         </div>`)[0];
+                popup_d13daf4f9e13be72f083d7491d0b0de2.setContent(html_eeb86e9a866af6ad3a12eadb5ce40994);
+            
+        
+
+        marker_6fc859f4a8a1e43eeadff25ce08b58a5.bindPopup(popup_d13daf4f9e13be72f083d7491d0b0de2)
+        ;
+
+        
+    
+    
+            var marker_a5da6474f1fcca0015cc3799a6162db6 = L.marker(
+                [55.7558, 37.6173],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_f0d47971b7d08b8677df63f97e7497a7 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_6cf88594015798964bba419000211fea = $(`<div id="html_6cf88594015798964bba419000211fea" style="width: 100.0%; height: 100.0%;">         Столица: Москва<br>         Регион: Московская область<br>         Код: 81<br>         </div>`)[0];
+                popup_f0d47971b7d08b8677df63f97e7497a7.setContent(html_6cf88594015798964bba419000211fea);
+            
+        
+
+        marker_a5da6474f1fcca0015cc3799a6162db6.bindPopup(popup_f0d47971b7d08b8677df63f97e7497a7)
+        ;
+
+        
+    
+    
+            var marker_68d3db6768855f554de06f17cf058c0a = L.marker(
+                [68.970663, 33.074918],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_fa8bb3e45d9c43b157b9ee0c9928c96b = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_7c5b6cd8d1180189f5ff7b22f15fb96c = $(`<div id="html_7c5b6cd8d1180189f5ff7b22f15fb96c" style="width: 100.0%; height: 100.0%;">         Столица: Мурманск<br>         Регион: Мурманская область<br>         Код: 14368<br>         </div>`)[0];
+                popup_fa8bb3e45d9c43b157b9ee0c9928c96b.setContent(html_7c5b6cd8d1180189f5ff7b22f15fb96c);
+            
+        
+
+        marker_68d3db6768855f554de06f17cf058c0a.bindPopup(popup_fa8bb3e45d9c43b157b9ee0c9928c96b)
+        ;
+
+        
+    
+    
+            var marker_5febde22b4198bb7beb0f75cfd7986dc = L.marker(
+                [43.4847, 43.6073],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_401df5ffebb22d3169249e699a1e2bae = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_9ca4f9faec177a6eee31c9bea948d0ea = $(`<div id="html_9ca4f9faec177a6eee31c9bea948d0ea" style="width: 100.0%; height: 100.0%;">         Столица: Нальчик<br>         Регион: Кабардино-Балкарская Республика<br>         Код: 9648<br>         </div>`)[0];
+                popup_401df5ffebb22d3169249e699a1e2bae.setContent(html_9ca4f9faec177a6eee31c9bea948d0ea);
+            
+        
+
+        marker_5febde22b4198bb7beb0f75cfd7986dc.bindPopup(popup_401df5ffebb22d3169249e699a1e2bae)
+        ;
+
+        
+    
+    
+            var marker_ad803320da519b248567e534dcc50b23 = L.marker(
+                [67.638, 53.0069],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_010da1f496e62bd8a82d359e0796c44d = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_1a44af3c91e717f2b7f4077649eeebc8 = $(`<div id="html_1a44af3c91e717f2b7f4077649eeebc8" style="width: 100.0%; height: 100.0%;">         Столица: Нарьян-Мар<br>         Регион: Ненецкий автономный округ<br>         Код: 61888<br>         </div>`)[0];
+                popup_010da1f496e62bd8a82d359e0796c44d.setContent(html_1a44af3c91e717f2b7f4077649eeebc8);
+            
+        
+
+        marker_ad803320da519b248567e534dcc50b23.bindPopup(popup_010da1f496e62bd8a82d359e0796c44d)
+        ;
+
+        
+    
+    
+            var marker_72873c2ce91cddd31b907841529e7afa = L.marker(
+                [56.2965, 43.9361],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_739a2015e36cb406fd637bf4f0157ae5 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_0dd8a0b241e89e5d44d91f3b70bea1b4 = $(`<div id="html_0dd8a0b241e89e5d44d91f3b70bea1b4" style="width: 100.0%; height: 100.0%;">         Столица: Нижний Новгород<br>         Регион: Нижегородская область<br>         Код: 2871<br>         </div>`)[0];
+                popup_739a2015e36cb406fd637bf4f0157ae5.setContent(html_0dd8a0b241e89e5d44d91f3b70bea1b4);
+            
+        
+
+        marker_72873c2ce91cddd31b907841529e7afa.bindPopup(popup_739a2015e36cb406fd637bf4f0157ae5)
+        ;
+
+        
+    
+    
+            var marker_9e39fc42610c16947331dca7a3b92bb0 = L.marker(
+                [55.0084, 82.9357],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_cec6ff9ddbc8c88a2b6b9297e764923f = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_5bfd4e3c1764f600a43428c2bf73a2e5 = $(`<div id="html_5bfd4e3c1764f600a43428c2bf73a2e5" style="width: 100.0%; height: 100.0%;">         Столица: Новосибирск<br>         Регион: Новосибирская область<br>         Код: 9654<br>         </div>`)[0];
+                popup_cec6ff9ddbc8c88a2b6b9297e764923f.setContent(html_5bfd4e3c1764f600a43428c2bf73a2e5);
+            
+        
+
+        marker_9e39fc42610c16947331dca7a3b92bb0.bindPopup(popup_cec6ff9ddbc8c88a2b6b9297e764923f)
+        ;
+
+        
+    
+    
+            var marker_a0cf5da92c5f031d08f3f3f128b18995 = L.marker(
+                [54.9885, 73.3242],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_e8dcb8f1fc9638cbd0949f529972ca45 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_4f2834b8e16d027f0b7b55a225c62d4f = $(`<div id="html_4f2834b8e16d027f0b7b55a225c62d4f" style="width: 100.0%; height: 100.0%;">         Столица: Омск<br>         Регион: Омская область<br>         Код: 8640<br>         </div>`)[0];
+                popup_e8dcb8f1fc9638cbd0949f529972ca45.setContent(html_4f2834b8e16d027f0b7b55a225c62d4f);
+            
+        
+
+        marker_a0cf5da92c5f031d08f3f3f128b18995.bindPopup(popup_e8dcb8f1fc9638cbd0949f529972ca45)
+        ;
+
+        
+    
+    
+            var marker_fc47c6370610b0de4dc97a00c3080b14 = L.marker(
+                [52.9651, 36.0785],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_c98048b7e3cad1eb2381f3a5c4f9dd52 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_ee8c95020346c1a41b385bdc54574c8a = $(`<div id="html_ee8c95020346c1a41b385bdc54574c8a" style="width: 100.0%; height: 100.0%;">         Столица: Орел<br>         Регион: Орловская область<br>         Код: 2814<br>         </div>`)[0];
+                popup_c98048b7e3cad1eb2381f3a5c4f9dd52.setContent(html_ee8c95020346c1a41b385bdc54574c8a);
+            
+        
+
+        marker_fc47c6370610b0de4dc97a00c3080b14.bindPopup(popup_c98048b7e3cad1eb2381f3a5c4f9dd52)
+        ;
+
+        
+    
+    
+            var marker_ef17ad234d1e595a495023501c4e80ca = L.marker(
+                [51.7682, 55.0969],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_cc0c1132f6a1f92635f82da1196e9fc5 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_d8941e8ddebb9e9356d0d64b704f8c93 = $(`<div id="html_d8941e8ddebb9e9356d0d64b704f8c93" style="width: 100.0%; height: 100.0%;">         Столица: Оренбург<br>         Регион: Оренбургская область<br>         Код: 3153<br>         </div>`)[0];
+                popup_cc0c1132f6a1f92635f82da1196e9fc5.setContent(html_d8941e8ddebb9e9356d0d64b704f8c93);
+            
+        
+
+        marker_ef17ad234d1e595a495023501c4e80ca.bindPopup(popup_cc0c1132f6a1f92635f82da1196e9fc5)
+        ;
+
+        
+    
+    
+            var marker_1e7265c323c2a0c5a20d8c3406293fe5 = L.marker(
+                [53.195, 45.0183],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_843e643567e38ab1a7cfd60ae93de23c = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_91183cdbda9b821b3f8d0abb64ff77cc = $(`<div id="html_91183cdbda9b821b3f8d0abb64ff77cc" style="width: 100.0%; height: 100.0%;">         Столица: Пенза<br>         Регион: Пензенская область<br>         Код: 5993<br>         </div>`)[0];
+                popup_843e643567e38ab1a7cfd60ae93de23c.setContent(html_91183cdbda9b821b3f8d0abb64ff77cc);
+            
+        
+
+        marker_1e7265c323c2a0c5a20d8c3406293fe5.bindPopup(popup_843e643567e38ab1a7cfd60ae93de23c)
+        ;
+
+        
+    
+    
+            var marker_8551d5d32939099a0c1a6506acf66585 = L.marker(
+                [58.0105, 56.2502],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_1c486d7ebc9a39d3e34d5f98c8539c51 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_1398c4428e577ba4abd55f6874a44613 = $(`<div id="html_1398c4428e577ba4abd55f6874a44613" style="width: 100.0%; height: 100.0%;">         Столица: Пермь<br>         Регион: Пермский край<br>         Код: 5520<br>         </div>`)[0];
+                popup_1c486d7ebc9a39d3e34d5f98c8539c51.setContent(html_1398c4428e577ba4abd55f6874a44613);
+            
+        
+
+        marker_8551d5d32939099a0c1a6506acf66585.bindPopup(popup_1c486d7ebc9a39d3e34d5f98c8539c51)
+        ;
+
+        
+    
+    
+            var marker_d48774d55a2fe8fd9b136485429dab64 = L.marker(
+                [61.7849, 34.3469],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_22610a4ba29eeb34ce800a7cfbe96e8a = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_f9eb212ebae792520476286e1248d10b = $(`<div id="html_f9eb212ebae792520476286e1248d10b" style="width: 100.0%; height: 100.0%;">         Столица: Петрозаводск<br>         Регион: Республика Карелия<br>         Код: 8090<br>         </div>`)[0];
+                popup_22610a4ba29eeb34ce800a7cfbe96e8a.setContent(html_f9eb212ebae792520476286e1248d10b);
+            
+        
+
+        marker_d48774d55a2fe8fd9b136485429dab64.bindPopup(popup_22610a4ba29eeb34ce800a7cfbe96e8a)
+        ;
+
+        
+    
+    
+            var marker_e288d290e0f198a78a7d5afb965375f7 = L.marker(
+                [53.0241, 158.6517],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_6e8935a3eedfc2fe4acf43717a6d072a = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_6b719292177ea27bddb00412085c0b94 = $(`<div id="html_6b719292177ea27bddb00412085c0b94" style="width: 100.0%; height: 100.0%;">         Столица: Петропавловск-Камчатский<br>         Регион: Камчатский край<br>         Код: 13098<br>         </div>`)[0];
+                popup_6e8935a3eedfc2fe4acf43717a6d072a.setContent(html_6b719292177ea27bddb00412085c0b94);
+            
+        
+
+        marker_e288d290e0f198a78a7d5afb965375f7.bindPopup(popup_6e8935a3eedfc2fe4acf43717a6d072a)
+        ;
+
+        
+    
+    
+            var marker_e08b035fbcfa1ef718b27848a9c056d0 = L.marker(
+                [57.8194, 28.3318],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_6083974535eda6748681323756f2ce58 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_0bbbdecdcccae9e6fc4245d6b2b72322 = $(`<div id="html_0bbbdecdcccae9e6fc4245d6b2b72322" style="width: 100.0%; height: 100.0%;">         Столица: Псков<br>         Регион: Псковская область<br>         Код: 7793<br>         </div>`)[0];
+                popup_6083974535eda6748681323756f2ce58.setContent(html_0bbbdecdcccae9e6fc4245d6b2b72322);
+            
+        
+
+        marker_e08b035fbcfa1ef718b27848a9c056d0.bindPopup(popup_6083974535eda6748681323756f2ce58)
+        ;
+
+        
+    
+    
+            var marker_3c4c0e47a25e8bd6742c488692f8c8db = L.marker(
+                [47.2357, 39.7015],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_4150c2f2e3e34f4af1385a35080ad156 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_6d8475540c107c6592053cbfe4395bd8 = $(`<div id="html_6d8475540c107c6592053cbfe4395bd8" style="width: 100.0%; height: 100.0%;">         Столица: Ростов-на-Дону<br>         Регион: Ростовская область<br>         Код: 3230<br>         </div>`)[0];
+                popup_4150c2f2e3e34f4af1385a35080ad156.setContent(html_6d8475540c107c6592053cbfe4395bd8);
+            
+        
+
+        marker_3c4c0e47a25e8bd6742c488692f8c8db.bindPopup(popup_4150c2f2e3e34f4af1385a35080ad156)
+        ;
+
+        
+    
+    
+            var marker_0a8ab77a91a50119b5721fb4177badb3 = L.marker(
+                [54.6254, 39.7359],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_50701bc81f17c00cfe388fec89be4604 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_0091860af26bdb92b9c17d847921f9c1 = $(`<div id="html_0091860af26bdb92b9c17d847921f9c1" style="width: 100.0%; height: 100.0%;">         Столица: Рязань<br>         Регион: Рязанская область<br>         Код: 1491<br>         </div>`)[0];
+                popup_50701bc81f17c00cfe388fec89be4604.setContent(html_0091860af26bdb92b9c17d847921f9c1);
+            
+        
+
+        marker_0a8ab77a91a50119b5721fb4177badb3.bindPopup(popup_50701bc81f17c00cfe388fec89be4604)
+        ;
+
+        
+    
+    
+            var marker_889d1789093a25c7aab6dbeb994a1568 = L.marker(
+                [66.5298, 66.614],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_f6670ceb388336ffd7ce3cba6e04ae35 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_762bf0232fa95f36be17cf2007f21e3c = $(`<div id="html_762bf0232fa95f36be17cf2007f21e3c" style="width: 100.0%; height: 100.0%;">         Столица: Салехард<br>         Регион: Ямало-Ненецкий автономный округ<br>         Код: 14880<br>         </div>`)[0];
+                popup_f6670ceb388336ffd7ce3cba6e04ae35.setContent(html_762bf0232fa95f36be17cf2007f21e3c);
+            
+        
+
+        marker_889d1789093a25c7aab6dbeb994a1568.bindPopup(popup_f6670ceb388336ffd7ce3cba6e04ae35)
+        ;
+
+        
+    
+    
+            var marker_92d937aaf4f7e5b265df1154286585d2 = L.marker(
+                [53.1959, 50.1008],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_032f9e4d682347f02bc5b5dad76f9c56 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_8aa1bd16014dc97b9ade729fa4a277e1 = $(`<div id="html_8aa1bd16014dc97b9ade729fa4a277e1" style="width: 100.0%; height: 100.0%;">         Столица: Самара<br>         Регион: Самарская область<br>         Код: 3106<br>         </div>`)[0];
+                popup_032f9e4d682347f02bc5b5dad76f9c56.setContent(html_8aa1bd16014dc97b9ade729fa4a277e1);
+            
+        
+
+        marker_92d937aaf4f7e5b265df1154286585d2.bindPopup(popup_032f9e4d682347f02bc5b5dad76f9c56)
+        ;
+
+        
+    
+    
+            var marker_667df375b9665f7776825d9f827fee49 = L.marker(
+                [59.95, 30.34],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_abb0abb190dd962086de63b9931a02cf = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_ceb4b93ed885dc1f76136a4023746716 = $(`<div id="html_ceb4b93ed885dc1f76136a4023746716" style="width: 100.0%; height: 100.0%;">         Столица: Санкт-Петербург<br>         Регион: Санкт-Петербург<br>         Код: 2661<br>         </div>`)[0];
+                popup_abb0abb190dd962086de63b9931a02cf.setContent(html_ceb4b93ed885dc1f76136a4023746716);
+            
+        
+
+        marker_667df375b9665f7776825d9f827fee49.bindPopup(popup_abb0abb190dd962086de63b9931a02cf)
+        ;
+
+        
+    
+    
+            var marker_fb53a22bd906e4398bf21a485e38f698 = L.marker(
+                [59.9343, 30.3351],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_fcdb300b2a147f9ccae1ea71ba05dd40 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_96b7abcf94e5ababbaade2c67face426 = $(`<div id="html_96b7abcf94e5ababbaade2c67face426" style="width: 100.0%; height: 100.0%;">         Столица: Санкт-Петербург<br>         Регион: Ленинградская область<br>         Код: 3446<br>         </div>`)[0];
+                popup_fcdb300b2a147f9ccae1ea71ba05dd40.setContent(html_96b7abcf94e5ababbaade2c67face426);
+            
+        
+
+        marker_fb53a22bd906e4398bf21a485e38f698.bindPopup(popup_fcdb300b2a147f9ccae1ea71ba05dd40)
+        ;
+
+        
+    
+    
+            var marker_03f48475ccfe5c64c4173d899a54615d = L.marker(
+                [54.1838, 45.1749],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_1a587e6115a01709f92608c780ff1a26 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_10acc81c7033501a502c51cec0a56021 = $(`<div id="html_10acc81c7033501a502c51cec0a56021" style="width: 100.0%; height: 100.0%;">         Столица: Саранск<br>         Регион: Мордовия<br>         Код: 5241<br>         </div>`)[0];
+                popup_1a587e6115a01709f92608c780ff1a26.setContent(html_10acc81c7033501a502c51cec0a56021);
+            
+        
+
+        marker_03f48475ccfe5c64c4173d899a54615d.bindPopup(popup_1a587e6115a01709f92608c780ff1a26)
+        ;
+
+        
+    
+    
+            var marker_e7d61ef9da02ea929e0d34bd179e0d00 = L.marker(
+                [51.5336, 46.0343],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_5090e8a099980db333b95c0de037fb1a = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_7c9be23446492e5cf4ac5fbfd0a36ce6 = $(`<div id="html_7c9be23446492e5cf4ac5fbfd0a36ce6" style="width: 100.0%; height: 100.0%;">         Столица: Саратов<br>         Регион: Саратовская область<br>         Код: 2528<br>         </div>`)[0];
+                popup_5090e8a099980db333b95c0de037fb1a.setContent(html_7c9be23446492e5cf4ac5fbfd0a36ce6);
+            
+        
+
+        marker_e7d61ef9da02ea929e0d34bd179e0d00.bindPopup(popup_5090e8a099980db333b95c0de037fb1a)
+        ;
+
+        
+    
+    
+            var marker_45f2b40d63aec4c90909e9e381ee09c5 = L.marker(
+                [44.6167, 33.5254],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_185ea8a4cc963bf9e94c8a73900c48d0 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_858acd0d7994e76f63bcd507110019f7 = $(`<div id="html_858acd0d7994e76f63bcd507110019f7" style="width: 100.0%; height: 100.0%;">         Столица: Севастополь<br>         Регион: Севастополь<br>         Код: 7873<br>         </div>`)[0];
+                popup_185ea8a4cc963bf9e94c8a73900c48d0.setContent(html_858acd0d7994e76f63bcd507110019f7);
+            
+        
+
+        marker_45f2b40d63aec4c90909e9e381ee09c5.bindPopup(popup_185ea8a4cc963bf9e94c8a73900c48d0)
+        ;
+
+        
+    
+    
+            var marker_c6dc3092c11545a536c14b2c542c2206 = L.marker(
+                [44.9521, 34.1024],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_7ce4bf0aaf35726cb711867da1f1a958 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_cdeb83b3445cabd67ab3b86bd7b1b414 = $(`<div id="html_cdeb83b3445cabd67ab3b86bd7b1b414" style="width: 100.0%; height: 100.0%;">         Столица: Симферополь<br>         Регион: Республика Крым<br>         Код: 6937<br>         </div>`)[0];
+                popup_7ce4bf0aaf35726cb711867da1f1a958.setContent(html_cdeb83b3445cabd67ab3b86bd7b1b414);
+            
+        
+
+        marker_c6dc3092c11545a536c14b2c542c2206.bindPopup(popup_7ce4bf0aaf35726cb711867da1f1a958)
+        ;
+
+        
+    
+    
+            var marker_2ea15ad2b3be81517dfe64816f5740c6 = L.marker(
+                [54.7826, 32.0453],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_d32d60a8ad580f7804202c300842c459 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_b2d591839b63fbae544b7906e770bf73 = $(`<div id="html_b2d591839b63fbae544b7906e770bf73" style="width: 100.0%; height: 100.0%;">         Столица: Смоленск<br>         Регион: Смоленская область<br>         Код: 5794<br>         </div>`)[0];
+                popup_d32d60a8ad580f7804202c300842c459.setContent(html_b2d591839b63fbae544b7906e770bf73);
+            
+        
+
+        marker_2ea15ad2b3be81517dfe64816f5740c6.bindPopup(popup_d32d60a8ad580f7804202c300842c459)
+        ;
+
+        
+    
+    
+            var marker_24f74944d11289042b63d975fdfa6958 = L.marker(
+                [45.0448, 41.9691],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_0cdf98380d843258d0bab5f2a0619429 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_34562481ad57b692e2c4bb5843ef8649 = $(`<div id="html_34562481ad57b692e2c4bb5843ef8649" style="width: 100.0%; height: 100.0%;">         Столица: Ставрополь<br>         Регион: Ставропольский край<br>         Код: 2900<br>         </div>`)[0];
+                popup_0cdf98380d843258d0bab5f2a0619429.setContent(html_34562481ad57b692e2c4bb5843ef8649);
+            
+        
+
+        marker_24f74944d11289042b63d975fdfa6958.bindPopup(popup_0cdf98380d843258d0bab5f2a0619429)
+        ;
+
+        
+    
+    
+            var marker_fda434a38833acfdb999080f5ae79a12 = L.marker(
+                [61.6688, 50.8356],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_fc28c9b01b001f073a96b143ef46f9bc = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_1858220bb6fde67d9ce43499f009e029 = $(`<div id="html_1858220bb6fde67d9ce43499f009e029" style="width: 100.0%; height: 100.0%;">         Столица: Сыктывкар<br>         Регион: Республика Коми<br>         Код: 4417<br>         </div>`)[0];
+                popup_fc28c9b01b001f073a96b143ef46f9bc.setContent(html_1858220bb6fde67d9ce43499f009e029);
+            
+        
+
+        marker_fda434a38833acfdb999080f5ae79a12.bindPopup(popup_fc28c9b01b001f073a96b143ef46f9bc)
+        ;
+
+        
+    
+    
+            var marker_0180cf1a0a470b40d3423f8ad1c7fd6f = L.marker(
+                [52.7212, 41.4523],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_b7b688bc4b214dbef19fc1b65ce26b77 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_e3d3f5b375766394e4993793aa3a258e = $(`<div id="html_e3d3f5b375766394e4993793aa3a258e" style="width: 100.0%; height: 100.0%;">         Столица: Тамбов<br>         Регион: Тамбовская область<br>         Код: 2806<br>         </div>`)[0];
+                popup_b7b688bc4b214dbef19fc1b65ce26b77.setContent(html_e3d3f5b375766394e4993793aa3a258e);
+            
+        
+
+        marker_0180cf1a0a470b40d3423f8ad1c7fd6f.bindPopup(popup_b7b688bc4b214dbef19fc1b65ce26b77)
+        ;
+
+        
+    
+    
+            var marker_649a7e2ba825c857a12a42614157eec0 = L.marker(
+                [56.8584, 35.9006],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_4c493bfbe1896fb1dc678b2958c81e9c = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_4bfd0422a77b6273e494c746a3ce1d02 = $(`<div id="html_4bfd0422a77b6273e494c746a3ce1d02" style="width: 100.0%; height: 100.0%;">         Столица: Тверь<br>         Регион: Тверская область<br>         Код: 2880<br>         </div>`)[0];
+                popup_4c493bfbe1896fb1dc678b2958c81e9c.setContent(html_4bfd0422a77b6273e494c746a3ce1d02);
+            
+        
+
+        marker_649a7e2ba825c857a12a42614157eec0.bindPopup(popup_4c493bfbe1896fb1dc678b2958c81e9c)
+        ;
+
+        
+    
+    
+            var marker_9342fd570aaef519f54679c3c20d7f8e = L.marker(
+                [56.4846, 84.9483],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_557dce1d1a9ca932896a2529011cd738 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_fe8099928072dfb54994bdc897284d20 = $(`<div id="html_fe8099928072dfb54994bdc897284d20" style="width: 100.0%; height: 100.0%;">         Столица: Томск<br>         Регион: Томская область<br>         Код: 10201<br>         </div>`)[0];
+                popup_557dce1d1a9ca932896a2529011cd738.setContent(html_fe8099928072dfb54994bdc897284d20);
+            
+        
+
+        marker_9342fd570aaef519f54679c3c20d7f8e.bindPopup(popup_557dce1d1a9ca932896a2529011cd738)
+        ;
+
+        
+    
+    
+            var marker_92f39294e9905b8398435e251fbedb9c = L.marker(
+                [54.1931, 37.6177],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_2a1bffa2c5db3b4403f59d04b94e659d = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_63f593919e85507bc85bc331642a465b = $(`<div id="html_63f593919e85507bc85bc331642a465b" style="width: 100.0%; height: 100.0%;">         Столица: Тула<br>         Регион: Тульская область<br>         Код: 5143<br>         </div>`)[0];
+                popup_2a1bffa2c5db3b4403f59d04b94e659d.setContent(html_63f593919e85507bc85bc331642a465b);
+            
+        
+
+        marker_92f39294e9905b8398435e251fbedb9c.bindPopup(popup_2a1bffa2c5db3b4403f59d04b94e659d)
+        ;
+
+        
+    
+    
+            var marker_281d26d6ba31cc6795deb1fce8e0d6a2 = L.marker(
+                [57.1613, 65.525],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_290449987a01d0c150cc26eeed17ac53 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_86d03d5654c472fa3d7427865c607074 = $(`<div id="html_86d03d5654c472fa3d7427865c607074" style="width: 100.0%; height: 100.0%;">         Столица: Тюмень<br>         Регион: Тюменская область<br>         Код: 3991<br>         </div>`)[0];
+                popup_290449987a01d0c150cc26eeed17ac53.setContent(html_86d03d5654c472fa3d7427865c607074);
+            
+        
+
+        marker_281d26d6ba31cc6795deb1fce8e0d6a2.bindPopup(popup_290449987a01d0c150cc26eeed17ac53)
+        ;
+
+        
+    
+    
+            var marker_9e95a97cf2796c2651b491a1b63937df = L.marker(
+                [51.8335, 107.5846],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_23af69ca47564d79a6da4dfdc3e84b34 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_ad553ee20413f7f43a3bec79781d5944 = $(`<div id="html_ad553ee20413f7f43a3bec79781d5944" style="width: 100.0%; height: 100.0%;">         Столица: Улан-Удэ<br>         Регион: Республика Бурятия<br>         Код: 9579<br>         </div>`)[0];
+                popup_23af69ca47564d79a6da4dfdc3e84b34.setContent(html_ad553ee20413f7f43a3bec79781d5944);
+            
+        
+
+        marker_9e95a97cf2796c2651b491a1b63937df.bindPopup(popup_23af69ca47564d79a6da4dfdc3e84b34)
+        ;
+
+        
+    
+    
+            var marker_5a0548dedf4127a52f9ce8b351793298 = L.marker(
+                [54.3142, 48.4031],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_b1e5352144f550963601e3e5e8d875a0 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_aef0ae209e66d6f34f2160d2742568b6 = $(`<div id="html_aef0ae209e66d6f34f2160d2742568b6" style="width: 100.0%; height: 100.0%;">         Столица: Ульяновск<br>         Регион: Ульяновская область<br>         Код: 4249<br>         </div>`)[0];
+                popup_b1e5352144f550963601e3e5e8d875a0.setContent(html_aef0ae209e66d6f34f2160d2742568b6);
+            
+        
+
+        marker_5a0548dedf4127a52f9ce8b351793298.bindPopup(popup_b1e5352144f550963601e3e5e8d875a0)
+        ;
+
+        
+    
+    
+            var marker_8be959eac209fd4fe61b259e637e6c3b = L.marker(
+                [54.7388, 55.9721],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_9b7ff6a8e88f583a67169da29c4cfa63 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_092866d8279a13f6ee50321d1960e381 = $(`<div id="html_092866d8279a13f6ee50321d1960e381" style="width: 100.0%; height: 100.0%;">         Столица: Уфа<br>         Регион: Республика Башкортостан<br>         Код: 2722<br>         </div>`)[0];
+                popup_9b7ff6a8e88f583a67169da29c4cfa63.setContent(html_092866d8279a13f6ee50321d1960e381);
+            
+        
+
+        marker_8be959eac209fd4fe61b259e637e6c3b.bindPopup(popup_9b7ff6a8e88f583a67169da29c4cfa63)
+        ;
+
+        
+    
+    
+            var marker_d0607d488b88d9dcd4fb6be26ccfd8ab = L.marker(
+                [48.4827, 135.0838],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_8f4b6c18a8d1fa075286867b16991a2a = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_3bcd725684093d67628331dd1741906e = $(`<div id="html_3bcd725684093d67628331dd1741906e" style="width: 100.0%; height: 100.0%;">         Столица: Хабаровск<br>         Регион: Хабаровский край<br>         Код: 4086<br>         </div>`)[0];
+                popup_8f4b6c18a8d1fa075286867b16991a2a.setContent(html_3bcd725684093d67628331dd1741906e);
+            
+        
+
+        marker_d0607d488b88d9dcd4fb6be26ccfd8ab.bindPopup(popup_8f4b6c18a8d1fa075286867b16991a2a)
+        ;
+
+        
+    
+    
+            var marker_4b8cd44735553d62df8e23783d17319b = L.marker(
+                [61.0032, 69.0181],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_2b01548e9855a34aec2e927b0c44e2c4 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_c264b3b6a4e038ec243b4f9eb1d19060 = $(`<div id="html_c264b3b6a4e038ec243b4f9eb1d19060" style="width: 100.0%; height: 100.0%;">         Столица: Ханты-Мансийск<br>         Регион: Ханты-Мансийский автономный округ — Югра<br>         Код: 2484<br>         </div>`)[0];
+                popup_2b01548e9855a34aec2e927b0c44e2c4.setContent(html_c264b3b6a4e038ec243b4f9eb1d19060);
+            
+        
+
+        marker_4b8cd44735553d62df8e23783d17319b.bindPopup(popup_2b01548e9855a34aec2e927b0c44e2c4)
+        ;
+
+        
+    
+    
+            var marker_603056eeabbe3a637b41e390a2225837 = L.marker(
+                [56.1463, 47.2519],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_ed786bc8b867099d01274aa8810ef9d5 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_7c9b87eceef40bfe5da33de3cbc4a106 = $(`<div id="html_7c9b87eceef40bfe5da33de3cbc4a106" style="width: 100.0%; height: 100.0%;">         Столица: Чебоксары<br>         Регион: Чувашская Республика<br>         Код: 3019<br>         </div>`)[0];
+                popup_ed786bc8b867099d01274aa8810ef9d5.setContent(html_7c9b87eceef40bfe5da33de3cbc4a106);
+            
+        
+
+        marker_603056eeabbe3a637b41e390a2225837.bindPopup(popup_ed786bc8b867099d01274aa8810ef9d5)
+        ;
+
+        
+    
+    
+            var marker_d502c242ec57b4767589430aafda3141 = L.marker(
+                [55.1644, 61.4368],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_3f006a4176434e532dfdda47ca87eb67 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_22c550b12434239185ee00b48ab323a8 = $(`<div id="html_22c550b12434239185ee00b48ab323a8" style="width: 100.0%; height: 100.0%;">         Столица: Челябинск<br>         Регион: Челябинская область<br>         Код: 5282<br>         </div>`)[0];
+                popup_3f006a4176434e532dfdda47ca87eb67.setContent(html_22c550b12434239185ee00b48ab323a8);
+            
+        
+
+        marker_d502c242ec57b4767589430aafda3141.bindPopup(popup_3f006a4176434e532dfdda47ca87eb67)
+        ;
+
+        
+    
+    
+            var marker_1e27dc683aa7ff8d1e119bf2c8b70912 = L.marker(
+                [44.2269, 42.0468],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_7e92601503111971129ff6720583c911 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_c7f557b84a2a88c54d41ac5e15bd385d = $(`<div id="html_c7f557b84a2a88c54d41ac5e15bd385d" style="width: 100.0%; height: 100.0%;">         Столица: Черкесск<br>         Регион: Карачаево-Черкесская Республика<br>         Код: 11991<br>         </div>`)[0];
+                popup_7e92601503111971129ff6720583c911.setContent(html_c7f557b84a2a88c54d41ac5e15bd385d);
+            
+        
+
+        marker_1e27dc683aa7ff8d1e119bf2c8b70912.bindPopup(popup_7e92601503111971129ff6720583c911)
+        ;
+
+        
+    
+    
+            var marker_70371921c976d02814f2188dcea56a0b = L.marker(
+                [52.034, 113.4994],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_6290a422d791a78bd896aeb5bc5f9290 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_403820d5896149401e68a2e27cef4cf7 = $(`<div id="html_403820d5896149401e68a2e27cef4cf7" style="width: 100.0%; height: 100.0%;">         Столица: Чита<br>         Регион: Забайкальский край<br>         Код: 10160<br>         </div>`)[0];
+                popup_6290a422d791a78bd896aeb5bc5f9290.setContent(html_403820d5896149401e68a2e27cef4cf7);
+            
+        
+
+        marker_70371921c976d02814f2188dcea56a0b.bindPopup(popup_6290a422d791a78bd896aeb5bc5f9290)
+        ;
+
+        
+    
+    
+            var marker_f935feec46bb95d3524a5232e76b9b2a = L.marker(
+                [46.3083, 44.2702],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_6e42f197ebe578ec8f542a5fb9cb95f8 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_1d2f48ab9d6071b692faacb47df7af16 = $(`<div id="html_1d2f48ab9d6071b692faacb47df7af16" style="width: 100.0%; height: 100.0%;">         Столица: Элиста<br>         Регион: Республика Калмыкия<br>         Код: 8509<br>         </div>`)[0];
+                popup_6e42f197ebe578ec8f542a5fb9cb95f8.setContent(html_1d2f48ab9d6071b692faacb47df7af16);
+            
+        
+
+        marker_f935feec46bb95d3524a5232e76b9b2a.bindPopup(popup_6e42f197ebe578ec8f542a5fb9cb95f8)
+        ;
+
+        
+    
+    
+            var marker_978bcaaa5357d5f822c3100850ee0542 = L.marker(
+                [46.9591, 142.738],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_37fe8d65e8784b81fe9cbd3a4f4a35c3 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_b3becd735683ae129b7579bb75ed83d6 = $(`<div id="html_b3becd735683ae129b7579bb75ed83d6" style="width: 100.0%; height: 100.0%;">         Столица: Южно-Сахалинск<br>         Регион: Сахалинская область<br>         Код: 1901<br>         </div>`)[0];
+                popup_37fe8d65e8784b81fe9cbd3a4f4a35c3.setContent(html_b3becd735683ae129b7579bb75ed83d6);
+            
+        
+
+        marker_978bcaaa5357d5f822c3100850ee0542.bindPopup(popup_37fe8d65e8784b81fe9cbd3a4f4a35c3)
+        ;
+
+        
+    
+    
+            var marker_225a218dc6754ff78933d57343326a7d = L.marker(
+                [62.0281, 129.7326],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_f45658d15b816acf3cffd7b9e712a1d8 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_63cf02db5356ae4bf4db4ee59a30aff7 = $(`<div id="html_63cf02db5356ae4bf4db4ee59a30aff7" style="width: 100.0%; height: 100.0%;">         Столица: Якутск<br>         Регион: Республика Саха (Якутия)<br>         Код: 11171<br>         </div>`)[0];
+                popup_f45658d15b816acf3cffd7b9e712a1d8.setContent(html_63cf02db5356ae4bf4db4ee59a30aff7);
+            
+        
+
+        marker_225a218dc6754ff78933d57343326a7d.bindPopup(popup_f45658d15b816acf3cffd7b9e712a1d8)
+        ;
+
+        
+    
+    
+            var marker_53d5232b6892f3f86be0aec29e6d908f = L.marker(
+                [57.6261, 39.8845],
+                {}
+            ).addTo(map_d61c78df08ca8228b114ebb61d4a43d1);
+        
+    
+        var popup_8ff8c21047298668aa86426fe8ff5df0 = L.popup({"maxWidth": 200});
+
+        
+            
+                var html_6c5aa2a71c59014d2bb2146d66a9172a = $(`<div id="html_6c5aa2a71c59014d2bb2146d66a9172a" style="width: 100.0%; height: 100.0%;">         Столица: Ярославль<br>         Регион: Ярославская область<br>         Код: 2604<br>         </div>`)[0];
+                popup_8ff8c21047298668aa86426fe8ff5df0.setContent(html_6c5aa2a71c59014d2bb2146d66a9172a);
+            
+        
+
+        marker_53d5232b6892f3f86be0aec29e6d908f.bindPopup(popup_8ff8c21047298668aa86426fe8ff5df0)
+        ;
+
+        
+    
+</script>
+</html>
